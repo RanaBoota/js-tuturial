@@ -81,12 +81,20 @@ const user=[
     email:"fdsa@gmail.com"
 }
 ]
+user[1].email
+// console.log(tinderuser);
+// console.log(Object.keys(tinderuser));
+// console.log(Object.values(tinderuser));
+// console.log(Object.entries(tinderuser));
 
-console.log(tinderuser);
-console.log(Object.keys(tinderuser));
-console.log(Object.values(tinderuser));
-console.log(Object.entries(tinderuser));
-
-console.log(tinderuser.hasOwnProperty('islogged'));
+// console.log(tinderuser.hasOwnProperty('islogged'));
 
 
+
+const course={
+    coursename:"JavaScript",
+    price:999,
+    courseinstructer:"Tayyab"
+}
+const{courseinstructer}=course
+console.log(courseinstructer);
